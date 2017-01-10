@@ -1,0 +1,13 @@
+a {
+  color: $accent-color;
+  text-decoration: none;
+
+  -webkit-transition: all $base-transition-speed ease-in-out;
+  -moz-transition: all $base-transition-speed ease-in-out;
+  -ms-transition: all $base-transition-speed ease-in-out;
+  -o-transition: all $base-transition-speed ease-in-out;
+
+  &:hover, &:active, &:focus {
+    color: $primary-color-dark;
+  }
+}

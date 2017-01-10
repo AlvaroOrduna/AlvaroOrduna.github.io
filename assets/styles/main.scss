@@ -1,0 +1,35 @@
+---
+---
+
+@import 'reset';
+@import 'variables';
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  color: $primary-text-color;
+  background-color: $background-color;
+
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  flex: 1;
+}
+
+::selection {
+  color: $primary-color-text;
+  background-color: $primary-color;
+}
+
+@import 'titles';
+@import 'links';
