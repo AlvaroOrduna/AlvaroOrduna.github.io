@@ -1,0 +1,21 @@
+body.not-found {
+  text-align: center;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1, h2, p {
+    padding: 0 14px;
+  }
+
+  h1 {
+    font-size: $base-font-size * 5;
+  }
+
+  h2 {
+    font-size: $base-font-size * 3;
+  }
+}
