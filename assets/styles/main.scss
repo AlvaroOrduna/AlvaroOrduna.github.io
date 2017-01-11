@@ -2,7 +2,9 @@
 ---
 
 @import 'reset';
+@import 'mixins';
 @import 'variables';
+@import 'palette';
 
 body {
   min-height: 100vh;
@@ -31,5 +33,15 @@ main {
   background-color: $primary-color;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 @import 'titles';
 @import 'links';
+@import 'layouts/home';

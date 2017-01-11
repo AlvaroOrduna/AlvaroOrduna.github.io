@@ -1,0 +1,88 @@
+body.home {
+  text-align: center;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile {
+    margin-top: 16px;
+
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 100%;
+    }
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    h2 {
+      padding: 0 14px;
+      font-size: $base-font-size;
+    }
+
+    @include breakpoint('xs') {
+
+      img {
+        width: 130px;
+        height: 130px;
+      }
+
+      h1 {
+        font-size: $base-font-size * 1.2;
+      }
+    }
+
+
+  }
+
+  .social {
+
+    a {
+      padding: 16px 14px;
+      border-radius: 80%;
+      color: $primary-color-dark;
+      line-height: $base-line-height * 2;
+
+      &:hover {
+        color: $accent-color;
+      }
+
+      i {
+        font-size: 24px;
+      }
+
+      @include breakpoint('xs') {
+        &:nth-child(3):after {
+          content: '\A';
+          white-space: pre;
+        }
+      }
+    }
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: row;
+    background: $primary-color-dark;
+    text-transform: uppercase;
+
+    a {
+      flex-grow: 1;
+      color: $background-color;
+      padding: 96px 0;
+
+      &:hover {
+        color: $accent-color;
+      }
+
+      @include breakpoint('xs') {
+        padding: 56px 0;
+      }
+    }
+  }
+}
