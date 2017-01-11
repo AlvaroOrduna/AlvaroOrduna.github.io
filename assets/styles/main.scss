@@ -2,6 +2,7 @@
 ---
 
 @import 'reset';
+@import 'flex';
 @import 'mixins';
 @import 'variables';
 @import 'palette';
@@ -9,15 +10,15 @@
 body {
   min-height: 100vh;
 
-  display: flex;
-  flex-direction: column;
+  @include flexbox();
+  @include flex-direction(column);
 
-  color: $primary-text-color;
   background-color: $background-color;
+  color: $primary-text-color;
 
   font-family: $base-font-family;
-  font-weight: $base-font-weight;
   font-size: $base-font-size;
+  font-weight: $base-font-weight;
   line-height: $base-line-height;
 
   -webkit-font-smoothing: antialiased;
@@ -25,12 +26,12 @@ body {
 }
 
 main {
-  flex: 1;
+  @include flex();
 }
 
 ::selection {
-  color: $primary-color-text;
   background-color: $primary-color;
+  color: $primary-color-text;
 }
 
 .noselect {

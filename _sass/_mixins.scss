@@ -25,3 +25,11 @@
     @warn "Breakpoint mixin supports: xs, sm, md, lg and xl";
   }
 }
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}

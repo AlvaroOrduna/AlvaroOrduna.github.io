@@ -2,16 +2,16 @@
 <html lang="en">
 {% include head.html %}
 
-<body class="home">
+<body class="home noselect">
   <main role="main">
 
     <div class="profile">
-      <img class="noselect" src="https://github.com/{{ site.social.github }}.png" alt="{{ site.name }} profile picture">
+      <img src="https://github.com/{{ site.social.github }}.png" alt="{{ site.name }} profile picture">
       <h1>{{ site.name }}</h1>
-      <h2>{{ site.slogan }}</h2>
+      <p>{{ site.slogan }}</p>
     </div>
 
-    <div class="social noselect">
+    <div class="social">
       <a aria-label="Email" title="Send me an e-mail" target="_blank" href="mailto:{{site.social.email}}">
         <i class="fa fa-envelope" aria-hidden="true"></i>
       </a>
