@@ -13,13 +13,12 @@ body {
   @include flexbox();
   @include flex-direction(column);
 
-  background-color: $background-color;
-  color: $primary-text-color;
-
   font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: $base-font-weight;
   line-height: $base-line-height;
+  text-align: justify;
+  text-justify: inter-word;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,9 +28,9 @@ main {
   @include flex();
 }
 
-::selection {
-  background-color: $primary-color;
-  color: $primary-color-text;
+a {
+  @include transition(all, $base-transition-speed, ease-in-out);
+  text-decoration: none;
 }
 
 .noselect {
@@ -44,6 +43,5 @@ main {
 }
 
 @import 'titles';
-@import 'links';
 @import 'layouts/home';
 @import 'layouts/not-found';

@@ -21,7 +21,6 @@ body.home {
     }
 
     p {
-      color: $primary-color;
     }
 
     @media (max-height: 600px) {
@@ -40,12 +39,10 @@ body.home {
 
     a {
       border-radius: 80%;
-      color: $primary-color-dark;
       font-size: 24px;
       padding: 16px 14px;
 
       &:hover {
-        color: $accent-color;
       }
 
       @include breakpoint('xs') {
@@ -61,13 +58,11 @@ body.home {
     @include flexbox();
     @include flex-direction(row);
 
-    background: $primary-color-dark;
     text-transform: uppercase;
 
     a {
-      @include flex-grow(1);
+      @include flex(1);
 
-      color: $background-color;
       padding: 56px 0;
 
       @media (max-height: 600px) {
@@ -75,7 +70,6 @@ body.home {
       }
 
       &:hover {
-        color: $accent-color;
       }
     }
   }

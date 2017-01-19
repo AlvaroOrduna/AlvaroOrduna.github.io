@@ -10,3 +10,47 @@ $accent-color:         #03A9F4;
 $primary-text-color:   #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
+
+.light {
+  background-color: $primary-color-light;
+  color: $primary-text-color;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-color-dark;
+  }
+
+  a {
+    color: $primary-color;
+  }
+
+  a:hover, a:active, a:focus {
+    color: $accent-color;
+  }
+
+  ::selection {
+    background-color: $primary-color;
+    color: $primary-color-text;
+  }
+}
+
+.dark {
+  background-color: $primary-color-dark;
+  color: $primary-color-text;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-color-light;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover, a:active, a:focus {
+    color: $accent-color;
+  }
+
+  ::selection {
+    background-color: $primary-color-text;
+    color: $primary-color;
+  }
+}
