@@ -38,13 +38,6 @@ body.home {
       border-radius: 80%;
       font-size: 24px;
       padding: 16px 14px;
-
-      @include breakpoint('xs') {
-        &:nth-child(3):after {
-          content: '\A';
-          white-space: pre;
-        }
-      }
     }
   }
 
