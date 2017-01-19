@@ -1,0 +1,49 @@
+<header class="dark profile">
+  <nav class="sections">
+    <a aria-label="Home" title="Home" href="{{ '/' | relative_url }}">Home</a>
+    <a aria-label="Blog" title="Blog" href="{{ 'blog' | relative_url }}">Blog</a>
+  </nav>
+
+  <img src="https://github.com/{{ site.social.github }}.png" alt="{{ site.name }} profile picture">
+  <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+  <p>{{ site.slogan }}</p>
+</header>
+
+<section class="contact">
+  <ul>
+    <li>
+      <a aria-label="Email" title="Send me an e-mail" target="_blank" href="mailto:{{site.social.email}}">
+        <i class="fa fa-envelope" aria-hidden="true"></i> {{site.social.email}}
+      </a>
+    </li>
+    <li>
+      <a aria-label="LinkedIn" title="Follow me on LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.social.linkedin}}">
+        <i class="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/in/{{site.social.linkedin}}
+      </a>
+    </li>
+    <li>
+      <a aria-label="Github" title="Look my projects" target="_blank" href="https://github.com/{{site.social.github}}">
+        <i class="fa fa-github" aria-hidden="true"></i> github.com/{{site.social.github}}
+      </a>
+    </li>
+    <li>
+      <a aria-label="Google" title="Follow me on Google" target="_blank" href="https://plus.google.com/u/0/+{{site.social.google}}">
+        <i class="fa fa-google" aria-hidden="true"></i> +{{site.social.google}}
+      </a>
+    </li>
+    <li>
+      <a aria-label="Facebook" title="Follow me on Facebook" target="_blank" href="https://www.facebook.com/{{site.social.facebook}}">
+        <i class="fa fa-facebook" aria-hidden="true"></i> facebook.com/{{site.social.facebook}}
+      </a>
+    </li>
+    <li>
+      <a aria-label="Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.social.twitter}}">
+        <i class="fa fa-twitter" aria-hidden="true"></i> @{{site.social.twitter}}
+      </a>
+    </li>
+  </ul>
+</section>
+
+<section class="education">{% include portfolio/education.html %}</section>
+<section class="language">{% include portfolio/language.html %}</section>
+<section class="interests">{% include portfolio/interests.html %}</section>

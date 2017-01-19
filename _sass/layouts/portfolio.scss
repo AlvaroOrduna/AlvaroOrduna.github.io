@@ -1,0 +1,173 @@
+.portfolio {
+  margin: 24px;
+
+  main {
+    @include flexbox();
+    @include flex-direction(row);
+    @include justify-content(center);
+
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+
+    @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+
+    @media (max-width: 767px) {
+      @include flex-direction(column-reverse);
+    }
+
+    section {
+      padding: 24px;
+    }
+
+    i {
+      min-width: 16px;
+      margin-right: 8px;
+    }
+
+    .sidebar {
+      background-color: $primary-color;
+      width: 320px;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+
+      .profile {
+        padding: 0 24px 24px;
+        text-align: center;
+
+        img {
+          border-radius: 100%;
+          height: 180px;
+          width: 180px;
+        }
+      }
+
+      .sections {
+        @include flexbox();
+        @include flex-direction(row);
+
+        text-transform: uppercase;
+
+        a {
+          @include flex(1);
+
+          padding: 16px 0;
+
+          @media (max-height: 600px) {
+            padding: 24px 0;
+          }
+        }
+      }
+
+      .education, .language, .interests {
+        p, span {
+          line-height: 1;
+          color: $primary-color-light;
+        }
+      }
+    }
+
+    .content {
+      @include flex();
+
+      h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .experience {
+
+        .job {
+          margin-bottom: 30px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .title {
+            font-size: 18px;
+            color: $primary-color;
+          }
+
+          header div {
+            @include flexbox();
+            @include flex-flow(row wrap);
+            @include justify-content(space-between);
+
+            padding-bottom: 4px;
+            font-size: 14px;
+
+            .company {
+              padding-right: 16px;
+            }
+
+            .period, .company {
+              line-height: 1.5;
+              color: $secondary-text-color;
+            }
+          }
+        }
+      }
+
+      .projects {
+
+        .project {
+          margin-bottom: 16px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          header {
+            @include flexbox();
+            @include flex-flow(row wrap);
+            @include justify-content(space-between);
+
+            .title {
+              font-size: 18px;
+              color: $primary-color;
+            }
+
+            .status {
+              padding-top: 5px;
+              color: $secondary-text-color;
+            }
+          }
+        }
+      }
+
+      .skills {
+
+        .skill {
+          margin-bottom: 16px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .title {
+            font-size: 18px;
+            color: $primary-color;
+          }
+
+          .bar {
+            height: 6px;
+            background-color: $primary-color-light;
+          }
+
+          .bar-inner {
+            height: 100%;
+            background-color: $accent-color;
+          }
+        }
+      }
+    }
+  }
+}

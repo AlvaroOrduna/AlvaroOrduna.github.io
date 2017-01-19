@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body class="light portfolio">
+
+  <main role="main">
+    <div class="content">
+      <section class="summary">{% include portfolio/summary.html %}</section>
+      <section class="experience">{% include portfolio/experience.html %}</section>
+      <section class="projects">{% include portfolio/projects.html %}</section>
+      <section class="skills">{% include portfolio/skills.html %}</section>
+    </div>
+
+    <div class="dark sidebar">{% include portfolio/sidebar.html %}</div>
+  </main>
+
+</body>
+
+</html>
