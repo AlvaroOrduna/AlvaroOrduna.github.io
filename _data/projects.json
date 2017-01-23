@@ -1,0 +1,14 @@
+[
+  {
+    "title": "CNavJ web app",
+    "url": "http://jueces.fnaf.es/",
+    "status": "Under active development",
+    "details": "<p>Web application that allows to see the recent activity of the \"Comité Navarro de Jueces de Atletismo\", as well as to manage the designations, competitions, etc. It is developed using <a href='http://angular.io/' target='_blank'>Angular2</a>, <a href='http://firebase.google.com/' target='_blank'>Firebase</a> and <a href='http://material.angular.io/' target='_blank'>Material2</a>.</p>"
+  },
+  {
+    "title": "Arduino Bluetooth Car",
+    "url": "http://github.com/AlvaroOrduna/arduino-bluetooth-car",
+    "status": "Finished",
+    "details": "<p>Car designed, assembled and programmed by me with the help of an <a href='https://www.arduino.cc/' target='_blank'>Arduino</a> board and a bluetooth module. It can be controlled with an Android mobile.</p>"
+  }
+]

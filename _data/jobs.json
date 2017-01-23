@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Front End Developer",
+    "company": "Valco Melton, Orcoyen, Spain",
+    "period": {
+      "start": "September 2016",
+      "end": "December 2016"
+    },
+    "details": "<p>Practices developing web utilities for internal use, with the aim of improving the productivity of the company. Most of the projects were developed in HTML, CSS and JS, supported by <a href='http://backbonejs.org/' target='_blank'>Backbone.JS</a> and <a href='http://materializecss.com/' target='_blank'>Materialize</a> libraries.</p>"
+  },
+  {
+    "title": "SCADA Engineer",
+    "company": "EOS, Orcoyen, Spain",
+    "period": {
+      "start": "July 2016",
+      "end": " September 2016"
+    },
+    "details": "<p>Design and implementation of data acquisition system for real time SCADA system. The project involves collecting data from different systems on a solar power plant and then put it in a database. Data acquisition part was developed in C ++ using <a href='http://libmodbus.org/' target='_blank'>libmodbus</a>. In addition, we implemented a NodeJS server to facilitate data insertion.</p>"
+  }
+]

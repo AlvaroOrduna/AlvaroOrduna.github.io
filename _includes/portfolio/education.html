@@ -1,8 +1,10 @@
 <h2>Education</h2>
 <ul>
+  {% for degree in site.data.education %}
   <li>
-    Computer Engineering
-    <p><a href="https://www.unavarra.es/" target="_blank">Public University of Navarre</a></p>
-    <span>2013 - 2017</span>
+    {{ degree.name }}
+    <p><a href="{{ degree.school.url }}" target="_blank">{{ degree.school.name }}</a></p>
+    <span>{{ degree.period.start }} - {{ degree.period.end }}</span>
   </li>
+  {% endfor %}
 </ul>

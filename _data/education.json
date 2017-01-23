@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Computer Engineering",
+    "school": {
+      "name": "Public University of Navarre",
+      "url": "https://www.unavarra.es/"
+    },
+    "period": {
+      "start": "2013",
+      "end": "2017"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Spanish",
+    "level": {
+      "name": "Native"
+    }
+  },
+  {
+    "name": "English",
+    "level": {
+      "name": "Upper intermediate",
+      "url": "https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages"
+    }
+  }
+]

@@ -1,5 +1,15 @@
 <h2>Languages</h2>
 <ul>
-  <li>Spanish <span>(Native)</span></li>
-  <li>English <span>(<a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages" target="_blank">Upper intermediate</a>)</span></li>
+  {% for language in site.data.languages %}
+  <li>
+    {{ language.name }}
+    <span>
+    {% if language.level.url %}
+      (<a href="{{ language.level.url }}" target="_blank">{{ language.level.name }}</a>)
+    {% else %}
+      ({{ language.level.name }})
+    {% endif %}
+    </span>
+  </li>
+  {% endfor %}
 </ul>
