@@ -1,14 +1,26 @@
 [
   {
+    "title": "Linux",
+    "level": 80
+  },
+  {
+    "title": "Embedded systems (Arduino, RPi)",
+    "level": 68
+  },
+  {
     "title": "C/C++",
-    "level": 45
+    "level": 65
   },
   {
     "title": "Angular 2",
-    "level": 35
+    "level": 50
   },
   {
     "title": "Android",
-    "level": 55
+    "level": 60
+  },
+  {
+    "title": "Material Design",
+    "level": 70
   }
 ]
