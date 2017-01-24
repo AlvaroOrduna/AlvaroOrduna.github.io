@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body class="blog">
+  <main role="main" class="light">
+
+    <header class="dark">
+      <nav>
+        <a href="{{ '/' | relative_url }}" class="page-banner">
+          <img src="https://github.com/{{ site.social.github }}.png" alt="{{ site.name }} profile picture">
+        </a>
+        <a aria-label="Home" title="Home" href="{{ '/' | relative_url }}">Home</a>
+        <a aria-label="Portfolio" title="Portfolio" href="{{ 'portfolio' | relative_url }}">Portfolio</a>
+      </nav>
+    </header>
+
+    {% if site.posts.length > 0 %}
+    <div class="articles">
+      {% for post in site.posts %}
+      <article>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <span>{{ post.excerpt }}</span>
+        <div class="article-footer">
+          <span class="article-footer-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          <span class="article-footer-divider">·</span>
+          <span class="article-footer-minutes">
+            {% capture words %}
+              {{ post.content | number_of_words }}
+            {% endcapture %}
+            {% unless words contains "-" %}
+              {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
+            {% endunless %}
+          </span> {% if post.tags.length > 0 %}
+          <span class="article-footer-divider">·</span>
+          <div class="article-footer-tags">
+            {% for tag in post.tags %}
+            <a href="{{ 'tag/' | relative_url }}{{ tag }}">{{ tag }}</a> {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-message">
+      <p>I have not had occasion to write anything that goes through my mind.</p>
+      <p>Even so, be attentive, one of these days I will.</p>
+      <p>:blush:</p>
+    </div>
+    {% endif %}
+
+  </main>
+</body>
+
+</html>

@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+lang: en
+
 url: ""
 name: Álvaro Orduna León
 slogan: Passionate about understanding the world around me
@@ -31,6 +33,9 @@ social:
 
 sass:
   style: compressed
+
+gems:
+  - "jemoji"
 
 # Build settings
 exclude:
