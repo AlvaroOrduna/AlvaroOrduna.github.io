@@ -2,27 +2,25 @@
   <img src="https://github.com/{{ site.social.github }}.png" alt="{{ site.name }} profile picture">
   <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
   <p>{{ site.slogan }}</p>
-</header>
 
-<section class="contact">
-  <ul>
+  <ul class="contact">
     <li>
       <a aria-label="Email" title="Send me an e-mail" target="_blank" href="mailto:{{site.social.email}}">
-        <i class="fa fa-envelope" aria-hidden="true"></i> {{site.social.email}}
+        <i class="fa fa-envelope" aria-hidden="true"></i>
       </a>
     </li>
     <li>
       <a aria-label="LinkedIn" title="Follow me on LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.social.linkedin}}">
-        <i class="fa fa-linkedin" aria-hidden="true"></i> linkedin.com/in/{{site.social.linkedin}}
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
       </a>
     </li>
     <li>
       <a aria-label="Github" title="Look my projects" target="_blank" href="https://github.com/{{site.social.github}}">
-        <i class="fa fa-github" aria-hidden="true"></i> github.com/{{site.social.github}}
+        <i class="fa fa-github" aria-hidden="true"></i>
       </a>
     </li>
   </ul>
-</section>
+</header>
 
 <section class="education">{% include portfolio/education.html %}</section>
 <section class="language">{% include portfolio/language.html %}</section>
