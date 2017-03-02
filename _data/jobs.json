@@ -1,6 +1,15 @@
 [
   {
-    "title": "Software Developer",
+    "title": "Fellow as Computer Engineer",
+    "company": "EOS, Orcoyen, Spain",
+    "period": {
+      "start": "February 2017",
+      "end": "today"
+    },
+    "details": "<p>Analysis of data collected by the SCADA system for photovoltaic plants using techniques close to Big Data. Create an autonomous system to generate temporary reports that help to understand the sharing of the plant and the failures that can occur in it.</p>"
+  },
+  {
+    "title": "Fellow as Software Developer",
     "company": "Valco Melton, Orcoyen, Spain",
     "period": {
       "start": "September 2016",
