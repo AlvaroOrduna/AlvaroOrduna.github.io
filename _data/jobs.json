@@ -1,10 +1,19 @@
 [
   {
+    "title": "Responsible for the technical development of Communications",
+    "company": "EOS, Orcoyen, Spain",
+    "period": {
+      "start": "June 2017",
+      "end": "present"
+    },
+    "details": "<p>Responsible for the technical development of EMPRO, a SCADA system for the monitoring and control of photovoltaic parks.</p><p>Coordinate and lead the development team from a technical point of view</p><p>Implement part of the systems that make up EMPRO</p><p>Plan the design, development and implementation of new parts of the system</p><p>Deployment of the system in photovoltaic parks</p>"
+  },
+  {
     "title": "Computer Engineer",
     "company": "EOS, Orcoyen, Spain",
     "period": {
       "start": "February 2017",
-      "end": "present day"
+      "end": "June 2017"
     },
     "details": "<p>Analysis of data collected by the SCADA system for photovoltaic plants using techniques close to Big Data. Create an autonomous system to generate temporary reports that help to understand the sharing of the plant and the failures that can occur in it.</p>"
   },
