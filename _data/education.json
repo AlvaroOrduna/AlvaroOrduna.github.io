@@ -1,6 +1,17 @@
 [
   {
-    "name": "Computer Engineering",
+    "name": "Master Degree in Computer Engineering",
+    "school": {
+      "name": "Public University of Navarre",
+      "url": "https://www.unavarra.es/"
+    },
+    "period": {
+      "start": "2017",
+      "end": "2020"
+    }
+  },
+  {
+    "name": "Degree in Computer Engineering",
     "school": {
       "name": "Public University of Navarre",
       "url": "https://www.unavarra.es/"

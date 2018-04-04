@@ -9,15 +9,15 @@
   },
   {
     "title": "C/C++",
-    "level": 65
+    "level": 75
   },
   {
     "title": "Data Analysis with Python",
     "level": 25
   },
   {
-    "title": "Angular 2",
-    "level": 60
+    "title": "MQTT",
+    "level": 50
   },
   {
     "title": "Android",
@@ -25,6 +25,6 @@
   },
   {
     "title": "Material Design",
-    "level": 70
+    "level": 65
   }
 ]
