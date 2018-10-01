@@ -7,7 +7,7 @@
   },
   {
     "title": "Arduino Bluetooth Car",
-    "url": "http://github.com/AlvaroOrduna/arduino-bluetooth-car",
+    "url": "http://github.com/alorle/arduino-bluetooth-car",
     "status": "Finished",
     "details": "<p>Car designed, assembled and programmed by me with the help of an <a href='https://www.arduino.cc/' target='_blank'>Arduino</a> board and a bluetooth module. It can be controlled with an Android mobile.</p>"
   }
