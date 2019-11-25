@@ -10,7 +10,9 @@
     </div>
   </header>
   <div class="details">
-    {{ job.details }}
+    {% for detail in job.details %}
+    <p>{{ detail }}</p>
+    {% endfor %}
   </div>
 </div>
 {% endfor %}

@@ -7,7 +7,9 @@
     <p class="status">{{ project.status }}</p>
   </header>
   <div class="details">
-    {{ project.details }}
+    {% for detail in project.details %}
+    <p>{{ detail }}</p>
+    {% endfor %}
   </div>
 </div>
 {% endfor %}
