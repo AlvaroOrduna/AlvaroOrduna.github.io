@@ -1,30 +1,35 @@
 [
   {
-    "title": "Responsible for the technical development of Communications",
+    "title": "Automation and Control Technical Manager",
     "company": "EOS, Orcoyen, Spain",
     "period": {
       "start": "June 2017",
       "end": "present"
     },
-    "details": "<p>Responsible for the technical development of EMPRO, a SCADA system for the monitoring and control of photovoltaic parks.</p><p>Coordinate and lead the development team from a technical point of view</p><p>Implement part of the systems that make up EMPRO</p><p>Plan the design, development and implementation of new parts of the system</p><p>Deployment of the system in photovoltaic parks</p>"
+    "details": [
+      "Technical Manager of EMPRO, a SCADA designed to monitor and control renewable energy generation and industrial facilities.",
+      "Principal responsibilities:",
+      "◌ Coordinate and lead development team from a technical point of view.",
+      "◌ Design, develop, implement and deploy new parts of the system."
+    ]
   },
   {
-    "title": "Computer Engineer",
+    "title": "Computer Engineer (internship)",
     "company": "EOS, Orcoyen, Spain",
     "period": {
       "start": "February 2017",
       "end": "June 2017"
     },
-    "details": "<p>Analysis of data collected by the SCADA system for photovoltaic plants using techniques close to Big Data. Create an autonomous system to generate temporary reports that help to understand the sharing of the plant and the failures that can occur in it.</p>"
+    "details": "<p>Analysis of data collected by the SCADA system for photovoltaic plants using techniques close to Big Data. I created an autonomous system to generate temporary reports that help to understand the sharing of the plant and the failures that can occur in it.</p>"
   },
   {
-    "title": "Software Developer",
+    "title": "Software Developer (internship)",
     "company": "Valco Melton, Orcoyen, Spain",
     "period": {
       "start": "September 2016",
       "end": "December 2016"
     },
-    "details": "<p>Practices developing web utilities for internal use, with the aim of improving the productivity of the company. Most of the projects were developed in HTML, CSS and JS, supported by <a href='http://backbonejs.org/' target='_blank'>Backbone.JS</a> and <a href='http://materializecss.com/' target='_blank'>Materialize</a> libraries.</p>"
+    "details": "Practices developing web utilities for internal use, with the aim of improving the productivity of the company. Most of the projects were developed in HTML, CSS and JS, supported by <a href='http://backbonejs.org/' target='_blank'>Backbone.JS</a> and <a href='http://materializecss.com/' target='_blank'>Materialize</a> libraries."
   },
   {
     "title": "SCADA Engineer",
@@ -33,6 +38,6 @@
       "start": "July 2016",
       "end": " September 2016"
     },
-    "details": "<p>Design and implementation of data acquisition system for real time SCADA system. The project involves collecting data from different systems on a solar power plant and then put it in a database. Data acquisition part was developed in C ++ using <a href='http://libmodbus.org/' target='_blank'>libmodbus</a>. In addition, we implemented a NodeJS server to facilitate data insertion.</p>"
+    "details": "Design and implement a data acquisition system for real time SCADA system. The project involves collecting data from different systems on a solar power plant and then put it in a database. Data acquisition part was developed in C ++ using <a href='https://libmodbus.org' target='_blank'>libmodbus</a>. In addition, we implemented a <a href='https://nodejs.org' target='_blank'>NodeJS</a> server to facilitate data insertion.</p>"
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
     "title": "Linux",
-    "level": 80
+    "level": 70
   },
   {
     "title": "Embedded systems (Arduino, RPi)",
-    "level": 68
+    "level": 58
   },
   {
     "title": "C/C++",
-    "level": 75
+    "level": 65
   },
   {
     "title": "Data Analysis with Python",
@@ -17,14 +17,14 @@
   },
   {
     "title": "MQTT",
-    "level": 50
+    "level": 75
   },
   {
-    "title": "Android",
+    "title": "Software design",
     "level": 60
   },
   {
-    "title": "Material Design",
+    "title": "JavaScript & TypeScript",
     "level": 65
   }
 ]
